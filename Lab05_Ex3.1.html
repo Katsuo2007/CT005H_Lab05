@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Infographic & Youtube Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin: 40px auto;
+            max-width: 760px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 32px;
+        }
+        .infographic {
+            text-align: center;
+        }
+        .infographic img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+            border-radius: 8px;
+        }
+        .video {
+            width: 100%;
+            max-width: 420px;
+            aspect-ratio: 9/16;
+            /* Keeps YouTube Short's vertical ratio */
+        }
+        .credit {
+            font-size: 0.96em;
+            color: #888;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Infographic hiển thị ở đây -->
+        <div class="infographic">
+            <img src="c:\Users\hi\Downloads\Lab05_Ex2.1.png" alt="Infographic">
+            <div class="credit">
+                Infographic tạo bởi Canva AI, hình ảnh từ Unsplash (CCO)
+            </div>
+        </div>
+        <!-- Nhúng video Youtube Shorts -->
+      <div class="video" style="text-align:center;">
+    <a href="https://youtube.com/shorts/mnChhaPrDak" target="_blank">
+        <img 
+            src="https://img.youtube.com/vi/aDsiFh39msI/hqdefault.jpg"
+            alt="Thumbnail video minh họa công nghệ số trong học tập"
+            style="
+                width:360px;
+                max-width:100%;
+                border-radius:12px;
+                box-shadow:0 4px 12px rgba(0,0,0,0.3);
+                cursor:pointer;
+            "
+        >
+    </a>
+
+    <p style="margin-top:8px;">
+        ▶ Nhấn vào ảnh để xem video trên YouTube
+    </p>
+</div>
+    </div>
+</body>
+</html>
